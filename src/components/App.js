@@ -1,11 +1,17 @@
 
 import React from "react";
 import './../styles/App.css';
-
+import Page from "./PageLayout";
 const App = () => {
+  const Header=()=>{
+    <h1>Welcome to my Website</h1>
+  };
+  const Footer=()=>{
+    <h2>All right reserved</h2>
+  };
   return (
     <div>
-        {/* Do not remove the main div */}
+        <Page Header={Header} Footer={Footer}/>
     </div>
   )
 }
