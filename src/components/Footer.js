@@ -1,6 +1,6 @@
 import React from "react";
 const Footer=()=>{
-   return(<h2>All right reserved</h2>)
+   return(<p>@ 2023 All right reserved</p>)
   };
  
 export default Footer;
