@@ -1,9 +1,9 @@
 import React from "react";
-const Page=({Header,Footer})=>{
+const Page=({Header,Children,Footer})=>{
 return(
     <>
         {Header}
-        <h2>This is the Content of my Website</h2>
+        {Children}
         {Footer}
     </>
 )
