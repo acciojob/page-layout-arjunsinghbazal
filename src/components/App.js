@@ -8,7 +8,7 @@ const App = () => {
  
   return (
     <div>
-        <Page Header={<Header/>} Children={<Children/>} Footer={<Footer/>}/>
+        <Page Header={<Header/>} Footer={<Footer/>}>{<Children/>}</Page>
     </div>
   )
 }

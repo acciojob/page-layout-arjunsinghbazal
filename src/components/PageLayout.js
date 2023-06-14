@@ -1,10 +1,10 @@
 import React from "react";
-const Page=({Header,Children,Footer})=>{
+const Page=(props)=>{
 return(
     <>
-        {Header}
-        {Children}
-        {Footer}
+        {props.Header}
+        {props.children}
+        {props.Footer}
     </>
 )
 }
